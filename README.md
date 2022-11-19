@@ -42,7 +42,7 @@ Send a post request:
 curl -X POST -H "Content-Type: application/json" -d '{"text": "Whaterver you want to predict"}' 0.0.0.0:5000/predict
 ```
 
-Or you can use Postman:
+Or you can use Postman:</br>
 method = "POST"</br>
 url: http://localhost:5000/predict</br>
 Headers: Content-Type: application/json</br>
